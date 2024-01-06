@@ -77,12 +77,16 @@ const images = [
       class="gallery-image"
       src="${preview}"
       alt="${description}"
-      width = "360";
-      height = "200";
+      title="${description}"
+      width="360"
+      height="200"
     />
   </a>
 </li>
   `, '') ;
 
-    let photos = new SimpleLightbox('.gallery a');
+    let photos = new SimpleLightbox('.gallery a', {
+      captionDelay: 250,
+      captionPosition: 'outside',
+    });
 

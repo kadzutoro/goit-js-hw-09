@@ -20,7 +20,7 @@ form.addEventListener('input', () => {
 
 form.addEventListener('submit', event => {
   event.preventDefault();
-  if (userData.email && userData.message) {
+  if (form.elements.email.value && form.elements.message.value) {
     console.log(userData);
     localStorage.removeItem(USER_DATA_STORAGE_KEY);
     userData = {};
