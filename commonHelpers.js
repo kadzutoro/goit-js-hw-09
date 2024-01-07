@@ -11,5 +11,5 @@ import"./assets/modulepreload-polyfill-ec808ebb.js";import{S as t}from"./assets/
     />
   </a>
 </li>
-  `,"");new t(".gallery a",{captionDelay:250,captionPosition:"outside"});
+  `,"");new t(".gallery a",{captionDelay:250,captionPosition:"outside",captionData:"alt"});
 //# sourceMappingURL=commonHelpers.js.map
