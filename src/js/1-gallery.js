@@ -88,5 +88,6 @@ const images = [
     let photos = new SimpleLightbox('.gallery a', {
       captionDelay: 250,
       captionPosition: 'outside',
+      captionData: 'alt'
     });
 
